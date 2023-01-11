@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+}
+
+*,::after, ::before{
+    box-sizing: inherit;
+}
+
+.mainContainer {
+    max-height: 3000px;
+    max-width: 1000px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Archivo Black', sans-serif;
+    margin:auto;
+    padding: 30px;
+    overflow-x: auto;
+    }
+    
+.mainContainer__title {
+    padding: 20px 100px 40px 40px;
+    text-align: right;
+    color: hsl(202deg 80% 62%);
+    font-style: italic ;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.navigation {
+    letter-spacing: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px; 
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+    }
+
+.navigation__link {
+    border-style: inset;
+    padding-left: 10px;
+    border-width: 10px; 
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    border-color: hsl(202deg 80% 62%);
+    background-color: hsl(202deg 80% 62%);
+    overflow: hidden;
+    }
+
+.article {
+    padding: 3px 20px 3px 10px;
+    min-width: 600px;
+    letter-spacing: 10px;
+    border-color: hsl(202deg 80% 62%);
+    background-color: hsl(202deg 80% 62%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Alfa Slab One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    font-size: 20px;
+  }      
+
+.article__paragraph {
+    color: rgb(41, 170, 244);
+    font-size: 15px;
+    line-height: 1.5;   
+    padding-bottom: 20px; 
+}
+
+.pictureContainer {
+    text-align: left;
+    padding: 15px 20px 10px 0px;
+}
+
+.pictureContainer--photo {
+    width: 300px;
+    width: 300px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    
+}
+.table__caption {
+    text-align: left;
+    padding-bottom: 10px;
+ }
+
+.table__cell {
+    width: auto;
+    border: 2px solid rgb(51, 113, 149);
+    padding: 10px;
+    }
+
+.table__cell--header {
+    background-color: hsl(202deg 80% 62%);
+    color: aliceblue;
+
+   }
+
+    /* unvisited link */
+.goalLink:link {
+    color: hsl(202deg 80% 62%) ;
+  }
+  
+  /* visited link */
+  .goalLink:visited {
+    color: hsl(246, 65%, 44%);
+  }
+  
+  /* mouse over link */
+  .goalLink:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .goalLink:active {
+    color: blue;
+  }
+  
+tr:hover {background-color:  hsl(202deg 70% 80%);}
+
+.hide {
+    display: none;
+}
+
+.list {
+    line-height: 3;
+}
+
+.list__tab {
+    padding-left: 60px;
+}
+
+.footer {
+    text-align: center;
+    vertical-align: text-bottom;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
