@@ -4,6 +4,7 @@ let linkAboutMe = document.querySelector('.js-linkAboutMe');
 let linkSport = document.querySelector('.js-linkSport');
 let linkMusic = document.querySelector('.js-linkMusic');
 let linkLiterature = document.querySelector('.js-linkLiterature');
+let linkTravels = document.querySelector('.js-linkTravels');
 
 function NaviDisapp() {
     document.querySelector(".js-navigation").style.visibility = 'hidden' ;
@@ -22,6 +23,10 @@ linkMusic.addEventListener("click", ()=> {
 } ) ;
 
 linkLiterature.addEventListener("click", ()=> {
+    setTimeout(NaviDisapp,15);
+} ) ;
+
+linkTravels.addEventListener("click", ()=> {
     setTimeout(NaviDisapp,15);
 } ) ;
 

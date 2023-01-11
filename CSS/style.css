@@ -35,7 +35,7 @@ html {
 
 .navigation__link {
     border-style: inset;
-    padding-left: 10px;
+    padding: 5px 0px 0px 5px;
     border-width: 10px; 
     text-decoration: none;
     color: hsl(0, 0%, 100%);
@@ -45,7 +45,7 @@ html {
     }
 
 .article {
-    padding: 3px 20px 3px 10px;
+    padding: 5px 20px 0px 10px;
     min-width: 600px;
     letter-spacing: 10px;
     border-color: hsl(202deg 80% 62%);
@@ -62,7 +62,7 @@ html {
 .article__paragraph {
     color: rgb(41, 170, 244);
     font-size: 15px;
-    line-height: 1.5;   
+    line-height: 2;   
     padding-bottom: 20px; 
 }
 
@@ -74,6 +74,10 @@ html {
 .pictureContainer--photo {
     width: 300px;
     width: 300px;
+}
+
+.tableContainer {
+    overflow-x: auto;
 }
 
 .table {
@@ -127,7 +131,7 @@ tr:hover {background-color:  hsl(202deg 70% 80%);}
 }
 
 .list {
-    line-height: 3;
+    line-height: 2;
 }
 
 .list__tab {
