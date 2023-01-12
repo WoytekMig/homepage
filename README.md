@@ -6,3 +6,4 @@
 
 ## Strona będąca początkiem pewnej przygody... ;) 
 pokazuje pierwsze zdobyte umiejętności - BEM, linkowanie, obsługa nawigacji śledzącej ruch (i kliknięcie), tworzenie i stylowanie tabel.
+Być może z biegiem czasu będzie rozbudowywana...
