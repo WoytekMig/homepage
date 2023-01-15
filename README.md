@@ -1,5 +1,5 @@
-# Wojtek - moja pierwsza strona
+# Wojtek - my first homepage
 
 ![Wojtek](images/Wojtek.jpg)
 
-## Strona będąca początkiem pewnej przygody... ;) 
+## This homepage is just a beginning of a new, great story... ;) 

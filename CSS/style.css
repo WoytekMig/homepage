@@ -42,6 +42,7 @@ html {
     border-color: hsl(202deg 80% 62%);
     background-color: hsl(202deg 80% 62%);
     overflow: hidden;
+    text-transform: uppercase;
     }
 
 .article {
@@ -57,6 +58,7 @@ html {
     border-style: inset;
     border-width: 10px;
     font-size: 20px;
+    text-transform: uppercase;
   }      
 
 .article__paragraph {
