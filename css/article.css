@@ -1,0 +1,22 @@
+.article__header {
+    padding: 5px 20px 0px 10px;
+    min-width: 600px;
+    letter-spacing: 10px;
+    border-color: hsl(202deg 80% 62%);
+    background-color: hsl(202deg 80% 62%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Alfa Slab One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.article__paragraph {
+    color: rgb(41, 170, 244);
+    font-size: 15px;
+    line-height: 2;
+    padding: 20px; 
+}

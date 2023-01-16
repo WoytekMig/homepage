@@ -1,0 +1,50 @@
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table__caption {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.table__cell {
+    width: auto;
+    border: 2px solid rgb(51, 113, 149);
+    padding: 10px;
+}
+
+.table__cell--header {
+    background-color: hsl(202deg 80% 62%);
+    color: aliceblue;
+}
+
+/* unvisited link */
+.goalLink:link {
+    color: hsl(202deg 80% 62%);
+}
+
+/* visited link */
+.goalLink:visited {
+    color: hsl(246, 65%, 44%);
+}
+
+/* mouse over link */
+.goalLink:hover {
+    color: hotpink;
+}
+
+/* selected link */
+.goalLink:active {
+    color: blue;
+}
+
+tr:hover {
+    background-color: hsl(202deg 70% 80%);
+}

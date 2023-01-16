@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.mainContainer {
+    max-height: 3000px;
+    max-width: 1000px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Archivo Black', sans-serif;
+    margin: auto;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+.mainContainer__title {
+    padding: 20px 100px 40px 40px;
+    text-align: right;
+    color: hsl(202deg 80% 62%);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hide {
+    display: none;
+}

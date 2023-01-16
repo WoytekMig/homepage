@@ -1,0 +1,20 @@
+.navigation {
+    letter-spacing: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+}
+
+.navigation__link {
+    border-style: inset;
+    padding: 5px 0px 0px 5px;
+    border-width: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    border-color: hsl(202deg 80% 62%);
+    background-color: hsl(202deg 80% 62%);
+    overflow: hidden;
+    text-transform: uppercase;
+}
