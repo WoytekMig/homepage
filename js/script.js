@@ -1,36 +1,28 @@
-console.log('Kłaniam się nisko ;) ');
+{
+    const welcomeFunction = () => { console.log('Kłaniam się nisko ;) ') };
 
-let linkAboutMe = document.querySelector('.js-linkAboutMe');
-let linkSport = document.querySelector('.js-linkSport');
-let linkMusic = document.querySelector('.js-linkMusic');
-let linkLiterature = document.querySelector('.js-linkLiterature');
-let linkTravels = document.querySelector('.js-linkTravels');
+    function naviDisappear() {
 
-function NaviDisapp() {
-    document.querySelector(".js-navigation").style.visibility = 'hidden' ;
+        function hideNavi() {
+            document.querySelector(".js-navigation").style.visibility = 'hidden';
+        };
+
+        const buttonsQuantity = document.querySelectorAll('.js-navigation__link');
+
+        for (i of buttonsQuantity) {
+            i.addEventListener('click', () => {
+                setTimeout(hideNavi, 15);
+            });
+        };
+
+        addEventListener("scroll", () => {
+            if (document.querySelector(".js-navigation").style.visibility = 'hidden') { document.querySelector(".js-navigation").style.visibility = 'visible' };
+        })
+    }
+
+    const init = () => {
+        naviDisappear();
+        welcomeFunction();
+    }
+    init();
 }
-
-linkAboutMe.addEventListener("click", ()=> {
-       setTimeout(NaviDisapp,15);
-} ) ;
-
-linkSport.addEventListener("click", ()=> {
-    setTimeout(NaviDisapp,15);
-} ) ;
-
-linkMusic.addEventListener("click", ()=> {
-    setTimeout(NaviDisapp,15);
-} ) ;
-
-linkLiterature.addEventListener("click", ()=> {
-    setTimeout(NaviDisapp,15);
-} ) ;
-
-linkTravels.addEventListener("click", ()=> {
-    setTimeout(NaviDisapp,15);
-} ) ;
-
-addEventListener("scroll", ()=> {
-   if (document.querySelector(".js-navigation").style.visibility = 'hidden') { document.querySelector(".js-navigation").style.visibility = 'visible'} ;
-})
-

@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-*,::after, ::before{
+*, ::after, ::before {
     box-sizing: inherit;
 }
 
@@ -11,41 +11,41 @@ html {
     max-width: 1000px;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Archivo Black', sans-serif;
-    margin:auto;
+    margin: auto;
     padding: 30px;
     overflow-x: auto;
-    }
-    
+}
+
 .mainContainer__title {
     padding: 20px 100px 40px 40px;
     text-align: right;
     color: hsl(202deg 80% 62%);
-    font-style: italic ;   
+    font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+}
 
 .navigation {
     letter-spacing: 5px;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 20px; 
+    font-size: 20px;
     position: sticky;
     top: 0px;
     display: inline-block;
-    }
+}
 
 .navigation__link {
     border-style: inset;
     padding: 5px 0px 0px 5px;
-    border-width: 10px; 
+    border-width: 10px;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     border-color: hsl(202deg 80% 62%);
     background-color: hsl(202deg 80% 62%);
     overflow: hidden;
     text-transform: uppercase;
-    }
+}
 
-.article {
+.article__header {
     padding: 5px 20px 0px 10px;
     min-width: 600px;
     letter-spacing: 10px;
@@ -59,13 +59,14 @@ html {
     border-width: 10px;
     font-size: 20px;
     text-transform: uppercase;
-  }      
+}
 
 .article__paragraph {
     color: rgb(41, 170, 244);
     font-size: 15px;
-    line-height: 2;   
-    padding-bottom: 20px; 
+    line-height: 2;
+    padding: 20px;
+    
 }
 
 .pictureContainer {
@@ -85,48 +86,51 @@ html {
 .table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px ;
+    margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
+
 .table__caption {
     text-align: left;
     padding-bottom: 10px;
- }
+}
 
 .table__cell {
     width: auto;
     border: 2px solid rgb(51, 113, 149);
     padding: 10px;
-    }
+}
 
 .table__cell--header {
     background-color: hsl(202deg 80% 62%);
     color: aliceblue;
 
-   }
+}
 
-    /* unvisited link */
+/* unvisited link */
 .goalLink:link {
-    color: hsl(202deg 80% 62%) ;
-  }
-  
-  /* visited link */
-  .goalLink:visited {
+    color: hsl(202deg 80% 62%);
+}
+
+/* visited link */
+.goalLink:visited {
     color: hsl(246, 65%, 44%);
-  }
-  
-  /* mouse over link */
-  .goalLink:hover {
+}
+
+/* mouse over link */
+.goalLink:hover {
     color: hotpink;
-  }
-  
-  /* selected link */
-  .goalLink:active {
+}
+
+/* selected link */
+.goalLink:active {
     color: blue;
-  }
-  
-tr:hover {background-color:  hsl(202deg 70% 80%);}
+}
+
+tr:hover {
+    background-color: hsl(202deg 70% 80%);
+}
 
 .hide {
     display: none;
@@ -142,6 +146,6 @@ tr:hover {background-color:  hsl(202deg 70% 80%);}
 
 .footer {
     text-align: center;
-    vertical-align: text-bottom;   
+    vertical-align: text-bottom;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
