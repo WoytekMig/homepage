@@ -1,7 +1,7 @@
 # Hello everyone 😉
 
 Here's my first [**homepage** -- feel free to check it out :)](https://woytekmig.github.io/homepage/)\
-It shows several skills in - [ ] **HTML**  - [x] **CSS**  - [x] **JS**
+It shows several skills in - [x] **HTML**  - [x] **CSS**  - [x] **JS**
 
 I've learn recent weeks:
 
